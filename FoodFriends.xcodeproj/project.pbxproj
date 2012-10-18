@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CD5ACD11622D8E500F6A765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD01622D8E500F6A765 /* UIKit.framework */; };
-		3CD5ACD31622D8E500F6A765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD21622D8E500F6A765 /* Foundation.framework */; };
-		3CD5ACD51622D8E500F6A765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD41622D8E500F6A765 /* CoreGraphics.framework */; };
+		3CB007B8162A90E7007AD63E /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007B7162A90E7007AD63E /* Message.m */; };
+		3CB007BC162A9122007AD63E /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007BB162A9122007AD63E /* Post.m */; };
+		3CB007C2162A91CD007AD63E /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007C1162A91CD007AD63E /* Member.m */; };
+		3CB007C5162A91F0007AD63E /* TagGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007C4162A91F0007AD63E /* TagGroup.m */; };
+		3CB007C8162A92BA007AD63E /* FoodFriends.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007C6162A92BA007AD63E /* FoodFriends.xcdatamodeld */; };
+		3CB007CB162A93AC007AD63E /* MessageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007CA162A93AC007AD63E /* MessageCoreData.m */; };
+		3CB007CE162A9403007AD63E /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007CD162A9403007AD63E /* Client.m */; };
+		3CB007D6162AA5B7007AD63E /* ButtonPressed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007D5162AA5B7007AD63E /* ButtonPressed.m */; };
+		3CB007DF162AA609007AD63E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007D8162AA609007AD63E /* InfoViewController.m */; };
+		3CB007E0162AA609007AD63E /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007DA162AA609007AD63E /* MessageViewController.m */; };
+		3CB007E1162AA609007AD63E /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007DC162AA609007AD63E /* MeViewController.m */; };
+		3CB007E2162AA609007AD63E /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007DE162AA609007AD63E /* PostViewController.m */; };
+		3CB007E4162AA632007AD63E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB007E3162AA632007AD63E /* MainStoryboard.storyboard */; };
+		3CB007E7162AABCA007AD63E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB007E5162AA9B4007AD63E /* CoreData.framework */; };
+		3CD5ACD11622D8E500F6A765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD01622D8E500F6A765 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3CD5ACD31622D8E500F6A765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD21622D8E500F6A765 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3CD5ACD51622D8E500F6A765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACD41622D8E500F6A765 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		3CD5ACDB1622D8E500F6A765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACD91622D8E500F6A765 /* InfoPlist.strings */; };
 		3CD5ACDD1622D8E500F6A765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5ACDC1622D8E500F6A765 /* main.m */; };
 		3CD5ACE11622D8E500F6A765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5ACE01622D8E500F6A765 /* AppDelegate.m */; };
 		3CD5ACE31622D8E500F6A765 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACE21622D8E500F6A765 /* Default.png */; };
 		3CD5ACE51622D8E500F6A765 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACE41622D8E500F6A765 /* Default@2x.png */; };
 		3CD5ACE71622D8E500F6A765 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACE61622D8E500F6A765 /* Default-568h@2x.png */; };
-		3CD5ACEA1622D8E500F6A765 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACE81622D8E500F6A765 /* MainStoryboard.storyboard */; };
-		3CD5ACED1622D8E500F6A765 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5ACEC1622D8E500F6A765 /* FirstViewController.m */; };
 		3CD5ACEF1622D8E500F6A765 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACEE1622D8E500F6A765 /* first.png */; };
 		3CD5ACF11622D8E500F6A765 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACF01622D8E500F6A765 /* first@2x.png */; };
-		3CD5ACF41622D8E500F6A765 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5ACF31622D8E500F6A765 /* SecondViewController.m */; };
 		3CD5ACF61622D8E500F6A765 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACF51622D8E500F6A765 /* second.png */; };
 		3CD5ACF81622D8E500F6A765 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5ACF71622D8E500F6A765 /* second@2x.png */; };
 		3CD5AD001622D8E500F6A765 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD5ACFF1622D8E500F6A765 /* SenTestingKit.framework */; };
@@ -41,6 +52,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB007B6162A90E7007AD63E /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = FoodFriends/Model/Message.h; sourceTree = "<group>"; };
+		3CB007B7162A90E7007AD63E /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = FoodFriends/Model/Message.m; sourceTree = "<group>"; };
+		3CB007BA162A9122007AD63E /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = FoodFriends/Model/Post.h; sourceTree = "<group>"; };
+		3CB007BB162A9122007AD63E /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = FoodFriends/Model/Post.m; sourceTree = "<group>"; };
+		3CB007C0162A91CD007AD63E /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Member.h; path = FoodFriends/Model/Member.h; sourceTree = "<group>"; };
+		3CB007C1162A91CD007AD63E /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Member.m; path = FoodFriends/Model/Member.m; sourceTree = "<group>"; };
+		3CB007C3162A91F0007AD63E /* TagGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagGroup.h; path = FoodFriends/Model/TagGroup.h; sourceTree = "<group>"; };
+		3CB007C4162A91F0007AD63E /* TagGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagGroup.m; path = FoodFriends/Model/TagGroup.m; sourceTree = "<group>"; };
+		3CB007C7162A92BA007AD63E /* FoodFriends.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodFriends.xcdatamodel; sourceTree = "<group>"; };
+		3CB007C9162A93AC007AD63E /* MessageCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageCoreData.h; path = FoodFriends/CoreData/MessageCoreData.h; sourceTree = "<group>"; };
+		3CB007CA162A93AC007AD63E /* MessageCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageCoreData.m; path = FoodFriends/CoreData/MessageCoreData.m; sourceTree = "<group>"; };
+		3CB007CC162A9403007AD63E /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Client.h; path = FoodFriends/Client/Client.h; sourceTree = "<group>"; };
+		3CB007CD162A9403007AD63E /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Client.m; path = FoodFriends/Client/Client.m; sourceTree = "<group>"; };
+		3CB007D4162AA5B7007AD63E /* ButtonPressed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonPressed.h; path = FoodFriends/ButtonPressed.h; sourceTree = "<group>"; };
+		3CB007D5162AA5B7007AD63E /* ButtonPressed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonPressed.m; path = FoodFriends/ButtonPressed.m; sourceTree = "<group>"; };
+		3CB007D7162AA609007AD63E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		3CB007D8162AA609007AD63E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		3CB007D9162AA609007AD63E /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		3CB007DA162AA609007AD63E /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		3CB007DB162AA609007AD63E /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		3CB007DC162AA609007AD63E /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		3CB007DD162AA609007AD63E /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		3CB007DE162AA609007AD63E /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		3CB007E3162AA632007AD63E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3CB007E5162AA9B4007AD63E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3CD5ACCC1622D8E500F6A765 /* FoodFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD5ACD01622D8E500F6A765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3CD5ACD21622D8E500F6A765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,20 +85,15 @@
 		3CD5ACDA1622D8E500F6A765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CD5ACDC1622D8E500F6A765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CD5ACDE1622D8E500F6A765 /* FoodFriends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodFriends-Prefix.pch"; sourceTree = "<group>"; };
-		3CD5ACDF1622D8E500F6A765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3CD5ACE01622D8E500F6A765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CD5ACDF1622D8E500F6A765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FoodFriends/AppDelegate.h; sourceTree = "<group>"; };
+		3CD5ACE01622D8E500F6A765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FoodFriends/AppDelegate.m; sourceTree = "<group>"; };
 		3CD5ACE21622D8E500F6A765 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3CD5ACE41622D8E500F6A765 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3CD5ACE61622D8E500F6A765 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3CD5ACE91622D8E500F6A765 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3CD5ACEB1622D8E500F6A765 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3CD5ACEC1622D8E500F6A765 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3CD5ACEE1622D8E500F6A765 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3CD5ACF01622D8E500F6A765 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3CD5ACF21622D8E500F6A765 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3CD5ACF31622D8E500F6A765 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3CD5ACF51622D8E500F6A765 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3CD5ACF71622D8E500F6A765 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3CD5ACEE1622D8E500F6A765 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = FoodFriends/first.png; sourceTree = "<group>"; };
+		3CD5ACF01622D8E500F6A765 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "FoodFriends/first@2x.png"; sourceTree = "<group>"; };
+		3CD5ACF51622D8E500F6A765 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = FoodFriends/second.png; sourceTree = "<group>"; };
+		3CD5ACF71622D8E500F6A765 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "FoodFriends/second@2x.png"; sourceTree = "<group>"; };
 		3CD5ACFE1622D8E500F6A765 /* FoodFriendsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodFriendsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD5ACFF1622D8E500F6A765 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3CD5AD071622D8E600F6A765 /* FoodFriendsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodFriendsTests-Info.plist"; sourceTree = "<group>"; };
@@ -79,6 +110,7 @@
 				3CD5ACD11622D8E500F6A765 /* UIKit.framework in Frameworks */,
 				3CD5ACD31622D8E500F6A765 /* Foundation.framework in Frameworks */,
 				3CD5ACD51622D8E500F6A765 /* CoreGraphics.framework in Frameworks */,
+				3CB007E7162AABCA007AD63E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +127,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB007AE162A7250007AD63E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3CB007C6162A92BA007AD63E /* FoodFriends.xcdatamodeld */,
+				3CB007C9162A93AC007AD63E /* MessageCoreData.h */,
+				3CB007CA162A93AC007AD63E /* MessageCoreData.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		3CB007B0162A725B007AD63E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CB007D7162AA609007AD63E /* InfoViewController.h */,
+				3CB007D8162AA609007AD63E /* InfoViewController.m */,
+				3CB007D9162AA609007AD63E /* MessageViewController.h */,
+				3CB007DA162AA609007AD63E /* MessageViewController.m */,
+				3CB007DB162AA609007AD63E /* MeViewController.h */,
+				3CB007DC162AA609007AD63E /* MeViewController.m */,
+				3CB007DD162AA609007AD63E /* PostViewController.h */,
+				3CB007DE162AA609007AD63E /* PostViewController.m */,
+				3CB007D4162AA5B7007AD63E /* ButtonPressed.h */,
+				3CB007D5162AA5B7007AD63E /* ButtonPressed.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3CB007B1162A726A007AD63E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				3CD5ACDF1622D8E500F6A765 /* AppDelegate.h */,
+				3CD5ACE01622D8E500F6A765 /* AppDelegate.m */,
+				3CB007CC162A9403007AD63E /* Client.h */,
+				3CB007CD162A9403007AD63E /* Client.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		3CB007B2162A7276007AD63E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CB007B6162A90E7007AD63E /* Message.h */,
+				3CB007B7162A90E7007AD63E /* Message.m */,
+				3CB007BA162A9122007AD63E /* Post.h */,
+				3CB007BB162A9122007AD63E /* Post.m */,
+				3CB007C0162A91CD007AD63E /* Member.h */,
+				3CB007C1162A91CD007AD63E /* Member.m */,
+				3CB007C3162A91F0007AD63E /* TagGroup.h */,
+				3CB007C4162A91F0007AD63E /* TagGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CB007CF162AA4E2007AD63E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3CD5ACEE1622D8E500F6A765 /* first.png */,
+				3CD5ACF01622D8E500F6A765 /* first@2x.png */,
+				3CD5ACF51622D8E500F6A765 /* second.png */,
+				3CD5ACF71622D8E500F6A765 /* second@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3CD5ACC11622D8E500F6A765 = {
 			isa = PBXGroup;
 			children = (
+				3CB007CF162AA4E2007AD63E /* images */,
+				3CB007B0162A725B007AD63E /* Classes */,
+				3CB007B1162A726A007AD63E /* Client */,
+				3CB007AE162A7250007AD63E /* CoreData */,
 				3CD5ACD61622D8E500F6A765 /* FoodFriends */,
 				3CD5AD051622D8E500F6A765 /* FoodFriendsTests */,
 				3CD5ACCF1622D8E500F6A765 /* Frameworks */,
+				3CB007B2162A7276007AD63E /* Model */,
 				3CD5ACCD1622D8E500F6A765 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +218,7 @@
 		3CD5ACCF1622D8E500F6A765 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CB007E5162AA9B4007AD63E /* CoreData.framework */,
 				3CD5ACD01622D8E500F6A765 /* UIKit.framework */,
 				3CD5ACD21622D8E500F6A765 /* Foundation.framework */,
 				3CD5ACD41622D8E500F6A765 /* CoreGraphics.framework */,
@@ -128,17 +230,7 @@
 		3CD5ACD61622D8E500F6A765 /* FoodFriends */ = {
 			isa = PBXGroup;
 			children = (
-				3CD5ACDF1622D8E500F6A765 /* AppDelegate.h */,
-				3CD5ACE01622D8E500F6A765 /* AppDelegate.m */,
-				3CD5ACE81622D8E500F6A765 /* MainStoryboard.storyboard */,
-				3CD5ACEB1622D8E500F6A765 /* FirstViewController.h */,
-				3CD5ACEC1622D8E500F6A765 /* FirstViewController.m */,
-				3CD5ACEE1622D8E500F6A765 /* first.png */,
-				3CD5ACF01622D8E500F6A765 /* first@2x.png */,
-				3CD5ACF21622D8E500F6A765 /* SecondViewController.h */,
-				3CD5ACF31622D8E500F6A765 /* SecondViewController.m */,
-				3CD5ACF51622D8E500F6A765 /* second.png */,
-				3CD5ACF71622D8E500F6A765 /* second@2x.png */,
+				3CB007E3162AA632007AD63E /* MainStoryboard.storyboard */,
 				3CD5ACD71622D8E500F6A765 /* Supporting Files */,
 			);
 			path = FoodFriends;
@@ -252,11 +344,11 @@
 				3CD5ACE31622D8E500F6A765 /* Default.png in Resources */,
 				3CD5ACE51622D8E500F6A765 /* Default@2x.png in Resources */,
 				3CD5ACE71622D8E500F6A765 /* Default-568h@2x.png in Resources */,
-				3CD5ACEA1622D8E500F6A765 /* MainStoryboard.storyboard in Resources */,
 				3CD5ACEF1622D8E500F6A765 /* first.png in Resources */,
 				3CD5ACF11622D8E500F6A765 /* first@2x.png in Resources */,
 				3CD5ACF61622D8E500F6A765 /* second.png in Resources */,
 				3CD5ACF81622D8E500F6A765 /* second@2x.png in Resources */,
+				3CB007E4162AA632007AD63E /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +385,18 @@
 			files = (
 				3CD5ACDD1622D8E500F6A765 /* main.m in Sources */,
 				3CD5ACE11622D8E500F6A765 /* AppDelegate.m in Sources */,
-				3CD5ACED1622D8E500F6A765 /* FirstViewController.m in Sources */,
-				3CD5ACF41622D8E500F6A765 /* SecondViewController.m in Sources */,
+				3CB007B8162A90E7007AD63E /* Message.m in Sources */,
+				3CB007BC162A9122007AD63E /* Post.m in Sources */,
+				3CB007C2162A91CD007AD63E /* Member.m in Sources */,
+				3CB007C5162A91F0007AD63E /* TagGroup.m in Sources */,
+				3CB007C8162A92BA007AD63E /* FoodFriends.xcdatamodeld in Sources */,
+				3CB007CB162A93AC007AD63E /* MessageCoreData.m in Sources */,
+				3CB007CE162A9403007AD63E /* Client.m in Sources */,
+				3CB007D6162AA5B7007AD63E /* ButtonPressed.m in Sources */,
+				3CB007DF162AA609007AD63E /* InfoViewController.m in Sources */,
+				3CB007E0162AA609007AD63E /* MessageViewController.m in Sources */,
+				3CB007E1162AA609007AD63E /* MeViewController.m in Sources */,
+				3CB007E2162AA609007AD63E /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +425,6 @@
 				3CD5ACDA1622D8E500F6A765 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3CD5ACE81622D8E500F6A765 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CD5ACE91622D8E500F6A765 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		3CD5AD081622D8E600F6A765 /* InfoPlist.strings */ = {
@@ -468,6 +562,7 @@
 				3CD5AD121622D8E600F6A765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CD5AD131622D8E600F6A765 /* Build configuration list for PBXNativeTarget "FoodFriendsTests" */ = {
 			isa = XCConfigurationList;
@@ -476,8 +571,22 @@
 				3CD5AD151622D8E600F6A765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CB007C6162A92BA007AD63E /* FoodFriends.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CB007C7162A92BA007AD63E /* FoodFriends.xcdatamodel */,
+			);
+			currentVersion = 3CB007C7162A92BA007AD63E /* FoodFriends.xcdatamodel */;
+			path = FoodFriends.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3CD5ACC31622D8E500F6A765 /* Project object */;
 }

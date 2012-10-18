@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  InfoViewController.h
 //  FoodFriends
 //
 //  Created by jin on 12-10-8.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface InfoViewController : UIViewController
 
 @end

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  MessageViewController.h
 //  FoodFriends
 //
 //  Created by jin on 12-10-8.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface MessageViewController : UIViewController
 
 @end
