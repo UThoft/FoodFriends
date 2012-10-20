@@ -9,10 +9,17 @@
 #import "ButtonPressed.h"
 
 @implementation ButtonPressed
+/*
+ XXX
+ XXX
+ */
+
 
 + (void) buttonPressed:(NSInteger)buttonId
+                      :(NSArray *)ace
+
 {
-    if (buttonId == 1)
+    if (buttonId == 1)  // XXX
     {
         UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hello" message:@"Yes, cool!" delegate:nil cancelButtonTitle:@"NO, don't press me" otherButtonTitles:nil, nil];
         [alert show];

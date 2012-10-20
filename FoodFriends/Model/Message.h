@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Message : NSObject
+@property   (retain, nonatomic) NSDate      *messageDate; // 本地时间
+@property   (nonatomic)         int         messageType; // 消息类型
+@property   (retain, nonatomic) NSObject    *messageContent; // 消息内容
+
 
 @end

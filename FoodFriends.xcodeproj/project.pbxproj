@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CAA345416328B4A0034D9A5 /* JsonFoodFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAA345316328B4A0034D9A5 /* JsonFoodFriends.m */; };
 		3CB007B8162A90E7007AD63E /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007B7162A90E7007AD63E /* Message.m */; };
 		3CB007BC162A9122007AD63E /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007BB162A9122007AD63E /* Post.m */; };
 		3CB007C2162A91CD007AD63E /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB007C1162A91CD007AD63E /* Member.m */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CAA345216328B4A0034D9A5 /* JsonFoodFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonFoodFriends.h; sourceTree = "<group>"; };
+		3CAA345316328B4A0034D9A5 /* JsonFoodFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonFoodFriends.m; sourceTree = "<group>"; };
 		3CB007B6162A90E7007AD63E /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = FoodFriends/Model/Message.h; sourceTree = "<group>"; };
 		3CB007B7162A90E7007AD63E /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = FoodFriends/Model/Message.m; sourceTree = "<group>"; };
 		3CB007BA162A9122007AD63E /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = FoodFriends/Model/Post.h; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				3CD5ACE01622D8E500F6A765 /* AppDelegate.m */,
 				3CB007CC162A9403007AD63E /* Client.h */,
 				3CB007CD162A9403007AD63E /* Client.m */,
+				3CAA345216328B4A0034D9A5 /* JsonFoodFriends.h */,
+				3CAA345316328B4A0034D9A5 /* JsonFoodFriends.m */,
 			);
 			name = Client;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				3CB007E0162AA609007AD63E /* MessageViewController.m in Sources */,
 				3CB007E1162AA609007AD63E /* MeViewController.m in Sources */,
 				3CB007E2162AA609007AD63E /* PostViewController.m in Sources */,
+				3CAA345416328B4A0034D9A5 /* JsonFoodFriends.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
